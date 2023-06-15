@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>骑行天团</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- bootstrap-css -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!--// bootstrap-css -->
+<!-- css -->
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<!--// css -->
+<!-- gallery -->
+<link type="text/css" rel="stylesheet" href="css/cm-overlay.css" />
+<!-- //gallery -->
+<!-- font-awesome icons -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome icons -->
+<!-- font -->
+<link href="http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,100i,300,300i,400,400i,500,500i,700,700i,800,800i,900,900i" rel="stylesheet">
+<link href="http://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+<!-- //font -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/SmoothScroll.min.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+</head>
+<body>
+	<!-- banner -->
+	<div class="jarallax banner">
+		<div class="wthree-different-dot">
+			<!-- header -->
+			<div class="header">
+				<div class="container">
+					<nav class="navbar navbar-default">
+						
+						<div class="navbar-header">
+							<div class="w3layouts-logo">
+								<h1><a href="index.html"><span>漫游者</span>江财骑行天团</a></h1>
+							</div>
+						</div>
+
+						<!-- 收集导航链接、表单和其他内容以进行切换 -->
+						<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+							<nav>
+								<ul class="nav navbar-nav">
+									<li class="active"><a href="index.html">首页</a></li>
+									<li><a href="#about" class="scroll">关于我们</a></li>
+									<li><a href="#services" class="scroll">服务</a></li>
+									<li><a href="#gallery" class="scroll">介绍</a></li>
+									<li><a href="#team" class="scroll">团队</a></li>
+									<li><a href="#mail" class="scroll">联系我们</a></li>
+								</ul>
+							</nav>
+						</div>
+						<!-- /.navbar-collapse -->
+					</nav>
+				</div>
+			</div>
+			<!-- //header -->
+			<div class="banner-top">
+				<div class="container">
+					<div class="slider">
+						<div class="callbacks_container">
+							<ul class="rslides callbacks callbacks1" id="slider4">
+								<li>	
+									<div class="banner_text">
+										<div class="agileits-star">
+											<span><i class="fa fa-star" aria-hidden="true"></i></span>
+											<span><i class="fa fa-star" aria-hidden="true"></i></span>
+											<span><i class="fa fa-star" aria-hidden="true"></i></span>
+											<span><i class="fa fa-star-half-o" aria-hidden="true"></i></span>
+										</div>
+										<h3>江财骑行天团</h3>
+										<p>一支有态度的团队</p>
+										<div class="w3-button">
+											<a href="#" data-toggle="modal" data-target="#myModal">更多</a>
+										</div>
+									</div>
+								</li>
+								<li>	
+									<div class="banner_text">
+										<div class="agileits-star">
+											<span><i class="fa fa-star" aria-hidden="true"></i></span>
+											<span><i class="fa fa-star" aria-hidden="true"></i></span>
+											<span><i class="fa fa-star" aria-hidden="true"></i></span>
+											<span><i class="fa fa-star-half-o" aria-hidden="true"></i></span>
+										</div>
+										<h3>想要加入我们吗？</h3>
+										<p>无门槛欢迎骑行爱好者</p>
+										<div class="w3-button">
+											<a href="#" data-toggle="modal" data-target="#myModal">更多</a>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<script src="js/responsiveslides.min.js"></script>
+						<script>
+							$(function () {
+							  $("#slider4").responsiveSlides({
+								auto: true,
+								pager:true,
+								nav:true,
+								speed: 500,
+								namespace: "callbacks",
+								before: function () {
+								  $('.events').append("<li>before event fired.</li>");
+								},
+								after: function () {
+								  $('.events').append("<li>after event fired.</li>");
+								}
+							  });
+						
+							});
+						 </script>
+						<!--横幅滑块从这里开始-->
+					</div>
+				</div>
+			</div>
+			<div class="agileinfo-address">
+				<div class="container">
+					<div class="agileinfo-address-grid">
+						<ul>
+							<li><i class="fa fa-map-marker" aria-hidden="true"></i>江西财经大学  麦庐园</li>
+							<li><i class="fa fa-phone" aria-hidden="true"></i>66666666</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+
+	
+	<!-- 我们是谁 -->
+	<div class="about" id="about">
+		<div class="container">
+			<div class="w3-agileits-about-grids">
+				<div class="col-md-6 agile-about-left">
+					<h2>我们是谁</h2>
+					<h5>一支业余的骑行爱好者团队</h5>
+					<p>均速超过20km/h卸轮胎
+						<span>时常骑行于南昌的各个街头角落</span>
+						代表着新时代大学生的活力
+					</p>
+				</div>
+				<div class="col-md-6 agile-about-right">
+						<img src="images/a1.jpg" alt="" />
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //我们是谁 -->
+	<!-- 我们会什么 -->
+	<div class="services" id="services">
+		<div class="container">
+			<div class="w3-agile-heading">
+				<h3>我们会什么</h3>
+			</div>
+			<div class="w3ls-services-grids">
+				<div class="col-md-3 w3ls-services-left">
+					<div class="w3ls-services-left-top">
+						<i class="fa fa-user" aria-hidden="true"></i>
+						<h5>装车 </h5>
+						<p>当然了，这是最基本的能力。只要你愿意，我们手把手教你装车，你也可以成为别人口中的大佬</p>
+					</div>
+					<div class="w3ls-services-left-top w3ls-services-left-top1">
+						<i class="fa fa-asterisk" aria-hidden="true"></i>
+						<h5>比赛</h5>
+						<p>我们常常组织参与高校之间的比赛，以车会友，锻炼身体，结交朋友</p>
+					</div>
+				</div>
+				<div class="col-md-6 w3ls-services-middle">
+					<div class="w3ls-services-middle-img">
+						<img src="images/7.jpg" alt="" />
+					</div>
+					<div class="w3ls-services-middle-grids">
+						<div class="col-md-6 w3ls-services-middle-left">
+							<div class="w3ls-services-left-top">
+								<i class="fa fa-bell" aria-hidden="true"></i>
+								<h5>会玩</h5>
+								<p>有关自行车的一切娱乐，我们都有大佬教学。只要你想，我们就一起玩！</p>
+							</div>
+						</div>
+						<div class="col-md-6 w3ls-services-middle-left">
+							<div class="w3ls-services-left-top">
+								<i class="fa fa-heart" aria-hidden="true"></i>
+								<h5>会学</h5>
+								<p>骑车需要高度集中注意力，学习也是一样，大家在一起也可以是学习搭子</p>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-3 w3ls-services-left">
+					<div class="w3ls-services-left-top">
+						<i class="fa fa-eye" aria-hidden="true"></i>
+						<h5>交友</h5>
+						<p>在这里，你可以认识不同学院，不同年级，不同学校，不同职业的骑行爱好者。别忘了在路上和车友打个招呼噢~</p>
+					</div>
+					<div class="w3ls-services-left-top w3ls-services-left-top1">
+						<i class="fa fa-anchor" aria-hidden="true"></i>
+						<h5>健康</h5>
+						<p>骑行对大腿，核心，心肺的要求很高，不管你是多高水平的骑友，骑行一定能给你带来健康的好身体</p>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //我们会什么 -->
+	
+	<!-- 我们的故事 -->
+	<div class="gallery" id="gallery">
+		<div class="container">
+			<div class="w3-agile-heading">
+				<h3>我们的故事</h3>
+			</div>
+			<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+					<ul id="myTab" class="nav nav-tabs" role="tablist">
+						<li role="presentation" class="active"><a href="#home-main" id="home-tab" role="tab" data-toggle="tab" aria-expanded="true">全部</a></li>
+						<li role="presentation"><a href="#learning" role="tab" id="learning-tab" data-toggle="tab" aria-controls="learning">骑行</a></li>
+						<li role="presentation"><a href="#playing" role="tab" id="playing-tab" data-toggle="tab" aria-controls="playing">风景</a></li>
+						<li role="presentation"><a href="#painting" role="tab" id="painting-tab" data-toggle="tab" aria-controls="painting">装车</a></li>
+						<li role="presentation"><a href="#school" role="tab" id="school-tab" data-toggle="tab" aria-controls="school">交友</a></li>
+					</ul>
+					<div id="myTabContent" class="tab-content">
+						<div role="tabpanel" class="tab-pane fade in active" id="home-main" aria-labelledby="home-tab">
+							<div class="w3_tab_img">
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/2.jpg">
+										  <figure class="imghvr-shutter-in-out-diag-2"><img src="images/2.jpg" alt=" " class="img-responsive" />
+										  </figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/3..jpg">
+										  <figure class="imghvr-shutter-in-out-diag-2"><img src="images/3..jpg" alt=" " class="img-responsive" />
+										  </figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/4.jpg">
+										  <figure class="imghvr-shutter-in-out-diag-2"><img src="images/4.jpg" alt=" " class="img-responsive" />
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/5.jpg">
+										  <figure class="imghvr-shutter-in-out-diag-2"><img src="images/5.jpg" alt=" " class="img-responsive" />
+										</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/6.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/6.jpg" alt=" " class="img-responsive" />
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/7..jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/7..jpg" alt=" " class="img-responsive" />
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/8.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/8.jpg" alt=" " class="img-responsive" />
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/9.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/9.jpg" alt=" " class="img-responsive" />
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="learning" aria-labelledby="learning-tab">
+							<div class="w3_tab_img">
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/2.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/2.jpg" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/3.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/3.jpg" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="playing" aria-labelledby="playing-tab">
+							<div class="w3_tab_img">
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/4.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/4.jpg" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/5.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/5.jpg" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/6.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/6.jpg" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="painting" aria-labelledby="painting-tab">
+							<div class="w3_tab_img">
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/7.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/7.jpg" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/10.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/10.jpg" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="school" aria-labelledby="school-tab">
+							<div class="w3_tab_img">
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/3.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/3.jpg" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div><div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/5.jpg">
+											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/5.jpg" alt=" " class="img-responsive">
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+			</div>
+			<script src="js/jquery.tools.min.js"></script>
+			<script src="js/jquery.mobile.custom.min.js"></script>
+			<script src="js/jquery.cm-overlay.js"></script>
+			<script>
+				$(document).ready(function(){
+					$('.cm-overlay').cmOverlay();
+				});
+			</script>
+		</div>
+	</div>
+	<!-- //我们的故事 -->
+	<!-- team -->
+	<div class="jarallax team" id="team">
+		<div class="team-dot">
+			<div class="container">
+				<div class="w3-agile-heading team-heading">
+					<h3>关于我们</h3>
+				</div>
+				<div class="agileits-team-grids">
+					<div class="col-md-3 agileits-team-grid">
+						<div class="team-info">
+							<img src="images/t1.jpg" alt="">
+							<div class="team-caption"> 
+								<h4>娄欢</h4>
+								<p>社长</p>
+								<ul>
+									<li><a href="#"><i class="fa fa-wechat"></i></a></li>
+									<li><a href="#"><i class="fa fa-qq"></i></a></li>
+									<li><a href="#"><i class="fa fa-weibo"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 agileits-team-grid">
+						<div class="team-info">
+							<img src="images/t2.jpg" alt="">
+							<div class="team-caption"> 
+								<h4>KIKI</h4>
+								<p>元气学姐</p>
+								<ul>
+									<li><a href="#"><i class="fa fa-wechat"></i></a></li>
+									<li><a href="#"><i class="fa fa-qq"></i></a></li>
+									<li><a href="#"><i class="fa fa-weibo"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 agileits-team-grid">
+						<div class="team-info">
+							<img src="images/t3.jpg" alt="">
+							<div class="team-caption"> 
+								<h4>喻勇</h4>
+								<p>摸鱼学长</p>
+								<ul>
+									<li><a href="#"><i class="fa fa-wechat"></i></a></li>
+									<li><a href="#"><i class="fa fa-qq"></i></a></li>
+									<li><a href="#"><i class="fa fa-weibo"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 agileits-team-grid">
+						<div class="team-info">
+							<img src="images/t4.jpg" alt="">
+							<div class="team-caption"> 
+								<h4>刘希荣</h4>
+								<p>团队大佬</p>
+								<ul>
+									<li><a href="#"><i class="fa fa-wechat"></i></a></li>
+									<li><a href="#"><i class="fa fa-qq"></i></a></li>
+									<li><a href="#"><i class="fa fa-weibo"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //team -->
+	<!-- contact -->
+	<div class="contact" id="mail">
+		<div class="container">
+			<div class="w3-agile-heading">
+				<h3>联系我们</h3>
+			</div>
+			<div class="w3layouts-contact-grids">
+				<div class="col-sm-3 w3layouts-contact-grid">
+					<i class="fa fa-map" aria-hidden="true"></i>
+					<h5>地址</h5>
+					<p>江西财经大学麦庐园校区</p>
+				</div>
+				<div class="col-sm-3 w3layouts-contact-grid">
+					<i class="fa fa-phone" aria-hidden="true"></i>
+					<h5>电话</h5>
+					<p>66666666666</p>
+					<p>88888888888</p>
+				</div>
+				<div class="col-sm-3 w3layouts-contact-grid">
+					<i class="fa fa-envelope" aria-hidden="true"></i>
+					<h5>邮箱</h5>
+					<p><a href="mailto:info@example.com">6666666666@qq.com</a></p>
+				</div>
+				<div class="col-sm-3 w3layouts-contact-grid">
+					<i class="fa fa-share-alt" aria-hidden="true"></i>
+					<h5>社交平台</h5>
+					<p>聊聊天吧</p>
+					<div class="agileinfo-social-grids">
+						<ul>
+							<li><a href="#"><i class="fa fa-wechat"></i></a></li>
+							<li><a href="#"><i class="fa fa-weibo"></i></a></li>
+							<li><a href="#"><i class="fa fa-qq"></i></a></li>
+							<li><a href="#"><i class="fa fa-github"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //contact -->
+	
+	<!-- contact-form -->
+	<div class="contact-info">
+		<div class="container">
+			<div class="contact-form">
+				<form action="#" method="post">
+					<input type="text" placeholder="姓名" required="">
+					<input type="email" placeholder="邮箱" required="">
+					<input type="text" placeholder="联系电话" required="">
+					<textarea placeholder="有啥想和我们说的" required=""></textarea>
+					<input type="submit" value="提交">
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- //contact-form -->
+	<!-- newsletter -->
+	<div class="newsletter">
+		<div class="container">
+			<div class="col-sm-7 newsletter-left">
+				<h5>欢迎随时加入我们，一起享受骑行乐趣</h5>
+			</div>
+			<div class="col-sm-5 newsletter-right">
+				<form action="#" method="post">
+					<input type="text" placeholder="搜索" name="Subscribe" required="">
+					<button class="btn1"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+				</form>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!-- //newsletter -->
+	<!-- footer -->
+	<footer>
+		<div class="container">
+			<div class="copyright">
+				<p>VR214班 &nbsp;&nbsp;姓名喻勇&nbsp;&nbsp;学号：0210329&nbsp;&nbsp;&nbsp;&nbsp;  “漫游者”江财骑行天团   </p>
+			</div>
+		</div>
+	</footer>
+	<!-- //footer -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<!-- 这里星星滚动图标 -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			
+				var defaults = {
+				containerID: 'toTop', // 淡入淡出元素 ID
+				containerHoverID: 'toTopHover', // 淡入淡出元素悬停 ID
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //这里结束滚动图标 -->
+<script src="js/jarallax.js"></script>
+	<script type="text/javascript">
+			/* init Jarallax */
+			$('.jarallax').jarallax({
+				speed: 0.5,
+				imgWidth: 1366,
+				imgHeight: 768
+			})
+		</script>
+</body>	
+</html>
